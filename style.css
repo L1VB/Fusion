@@ -1,3 +1,9 @@
+:root{
+    --red: #b7312c;
+    --black: #41273B;
+    --white: #dfe1df;
+}
+
 img{
     max-width: 50dvw;
 }
@@ -6,4 +12,7 @@ body{
     text-align: center;
     justify-content: center;
     margin-top: 25dvh;
+    color: var(--black);
+    background-color: var(--white);
+    font-family: 'Panchang', sans-serif;
 }
